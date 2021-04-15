@@ -1,0 +1,60 @@
+
+@media screen and (min-width:360px) and (max-width:640px){
+    .side-bar{
+        display: none;
+    }
+    .content-box{
+        margin:0px;
+        overflow:hidden;   
+    }
+    iframe{
+        width:280px !important;
+
+    }
+    .index-heading{
+        font-size: 1.8rem;
+    }
+    .index-para{
+        font-size: 1rem;
+    }
+    .index-para2{
+        font-size: 1rem;
+    }
+    .mobileMenu{
+        display: flex !important;
+        height: 35px;
+        position: relative;
+    }
+    .brandName{
+        color:white;
+        border-radius: 5px;
+        margin-bottom: 0.1rem;
+        margin-top: 0.5rem;
+        background-image: linear-gradient(rgb(82, 40, 40),rgb(160, 216, 28));
+        font-size: 1.4rem;
+    }
+    .hamburgerMenu{
+        position: absolute;
+        top: -6px;
+        right: 13px;
+        cursor:pointer;
+    }
+    .menuItems{ 
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .menuItems a{
+        text-decoration: none;
+        color:white;
+        padding:0.2rem;
+    }
+    .close{
+        
+        position: absolute;
+        top: 36px;
+        right: 6px !important;
+    }
+    .alert{
+        padding:0.1rem;
+    }
+}

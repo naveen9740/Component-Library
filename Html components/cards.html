@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards . MAGIC UI</title>
+    <meta name='description' content='The most popular HTML, CSS, and JS library in the world.'>
+    <meta name="keywords" content="HTML, CSS, JavaScript, MAGIC UI, MAGIC BOOTSTRAP">
+    <meta name="author" content="Naveen Kamath">
+    <link rel="icon" href='/images/Basic/favicon-16x16.png' type='image/gif' sizes='16x16'>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/Css Components/sideNav.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="/responsive/index.css">
+</head>
+<body>
+    <!-- Buttons -->
+    <header class='side-bar'>
+        <div class="heading">
+            <div class="brand-name">
+                <h1>MAGIC UI</h1>
+            </div>
+        </div>
+        <div class="installation">
+            <h2><a href="/index.html">Installation</a></h2>
+        </div>
+        <div class="nav-items">
+            <a href="/Html components/alert.html">Alert</a>
+            <a href="/Html components/avatar.html">Avatars</a>
+            <a href="/Html components/badges.html">Badges</a>
+            <a href="/Html components/button.html">Buttons</a>
+            <a  class='active'href="/Html components/cards.html">Cards</a>
+            <a href="/Html components/input.html">Input</a>
+            <a href="/Html components/modal.html">Modal</a>
+            <a href="/Html components/ratings.html">Ratings</a>
+            <a href="/Html components/text-util.html">Text-Utilities</a>
+            <a href="/Html components/toast.html">Toast</a>
+        </div>
+        <footer class="footer">
+            <div class="designed-by">
+                <a href="">Developed & Designed By <strong class='white'>Naveen Kamath</strong>
+                </a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/naveen9740" target="_blank"><img src="/images/Basic/GitHub-Mark-32px.png"
+                        alt=""></a>
+            </div>
+        </footer>
+    </header>
+    <div class="mobileMenu">
+        <div class="brandName">MAGIC UI</div>
+        <div class="contactUs"><a href=""></a></div>
+        <div class="hamburgerMenu" id='ham'><img src="/images/Basic/ham.png" alt=""></div>
+    </div>
+    <div class="menuItems" id='menuItems'>
+        <a href="/Html components/alert.html">Alert</a>
+        <a href="/Html components/avatar.html">Avatars</a>
+        <a href="/Html components/badges.html">Badges</a>
+        <a href="/Html components/button.html">Buttons</a>
+        <a href="/Html components/cards.html">Cards</a>
+        <a href="/Html components/input.html">Input</a>
+        <a href="/Html components/modal.html">Modal</a>
+        <a href="/Html components/ratings.html">Ratings</a>
+        <a href="/Html components/text-util.html">Text-Utilities</a>
+        <a href="/Html components/toast.html">Toast</a>
+        <div id='cl' class="close">&#x2716;</div>
+    </div>
+    <div class='content-box'>
+        <div class="intro">
+            <h1 class="intro-heading">Cards</h1>
+            <p class="intro-para">The Card components contains cards which is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards.</p>
+        </div>
+        <div class="intro btn-component-container">
+            <!-- Simple Card -->
+            <h2 class="sub-heading">Simple Card</h2>
+            <div class="intro">
+                <div class="modal-container">
+                    <div class="card">
+                        <img class='card-top' src="https://source.unsplash.com/1600x900/?nature,water" alt="">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Card Title
+                            </div>
+                            <div class="card-text">
+                                Card text Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ipsum ducimus
+                                minus sequi facilis dolorem.
+                            </div>
+                            <button class='btn btn-primary'>Go Somewhere</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="iframe-section intro">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%250A%2520%2520%2520%253Cimg%2520class%253D%27card-top%27%2520src%253D%2522https%253A%252F%252Fsource.unsplash.com%252F1600x900%252F%253Fnature%252Cwater%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ECard%2520text%2520Lorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%250A%2520%2520%2520%2520%2520%2520Qui%2520ipsum%2520ducimus%2520minus%2520sequifacilis%2520dolorem.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%27btn%2520btn-primary%27%253EGo%2520Somewhere%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 784px; height: 369px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!--Shopping Card-->
+            <h2 class="sub-heading">Shopping Card</h2>
+            <div class="intro">
+                <div class="modal-container card-container">
+                    <div class="shop-card">
+                        <img class='shop-card-img' src="/images/card Images/menShirt.webp" alt="">
+                        <div class="shop-card-body">
+                            <h3 class="prod-brand">Dennis Lingo</h3>
+                            <h4 class='prod-desc fw-light'>Men Slim Fit Casual Shirt</h4>
+                            <div class="prod-price">
+                                <span class="price fw-bold">Rs. 1000</span>
+                                <span class="strike-price">Rs. 1500</span>
+                                <span class="discount ">(35% OFF)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-card">
+                        <img class='new-tag' src="/images/card Images/new1.png" alt="">
+                        <img class='shop-card-img' src="/images/card Images/menshirt2.webp" alt="">
+                        <div class="shop-card-body">
+                            <h3 class="prod-brand">Levis</h3>
+                            <h4 class='prod-desc fw-light'>Men Casual Shirt</h4>
+                            <div class="prod-price">
+                                <span class="price fw-bold">Rs. 2000</span>
+                                <span class="strike-price">Rs. 2500</span>
+                                <span class="discount ">(25% OFF)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="iframe-section intro">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522shop-card%2522%253E%250A%2520%2520%250A%2520%2520%2520%253Cimg%2520class%253D%27new-tag%27%2520src%253D%2522%252Fimages%252Fcard%2520Images%252Fnew1.png%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%27shop-card-img%27%2520src%253D%2522%252Fimages%252Fcard%2520Images%252Fmenshirt2.webp%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522shop-card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522prod-brand%2522%253ELevis%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%27prod-desc%2520fw-light%27%253EMen%2520Casual%2520Shirt%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prod-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2520fw-bold%2522%253ERs.%25202000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522strike-price%2522%253ERs.%25202500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2520%2522%253E%2825%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%250A%253C%252Fdiv%253E"
+                    style="width: 638px; height: 387px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+</body>
+<script src="/Js components/ham.js"></script>
+<script src="/Js components/modal.js"></script>
+</html>

@@ -1,0 +1,69 @@
+:root{
+    --primary:#1e8be4;
+    --secondary:#778899;
+    --success:#198754;
+    --danger:#dc3545;
+    --warning:#ffc107;
+    --info:#4b0082;
+    --light:#f8f9fa;
+    --dark:#212529;
+    --link:#0d6efd;
+    --primary-hover:#106fbd;
+    --secondary-hover:#697683;
+    --success-hover:#017201;
+    --danger-hover:#b32922;
+    --warning-hover:#f3ca27;
+    --info-hover:#37025e;
+    --light-hover:#c9c0c0;
+    --dark-hover:#000000;
+    --disable-primary-btn:#77afdd;
+    --disable-secondary-btn:#888a8b;
+    --bg-color:#333333;
+    --font-color:#818181;
+    --btn-icon-color:#ffffff;
+    --font-family-rubik:@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    --font-family-roboto:@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+}
+
+/* fontImport */
+
+/* body */
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--bg-color);
+    color:var(--light);
+}
+
+/* Rating with Hover Effect: */
+
+.box{
+    font-size: 2.5rem;
+    cursor:pointer;
+    direction: rtl;
+}
+.st{
+    text-decoration: none;
+    color:black;
+}
+.box a:hover{
+    color: var(--warning-hover);
+}
+.b1:hover ~ a{
+    color: var(--warning-hover);
+}
+.b2:hover ~ a{
+    color: var(--warning-hover);
+}
+.b3:hover ~ a{
+    color:var(--warning-hover);
+}
+.b4:hover ~ a{
+    color: var(--warning-hover);
+}
+.b5:hover ~ .a{
+    color: var(--warning-hover);
+}
