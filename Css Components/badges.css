@@ -1,0 +1,81 @@
+:root{
+    --primary:#1e8be4;
+    --secondary:#778899;
+    --success:#198754;
+    --danger:#dc3545;
+    --warning:#ffc107;
+    --info:#4b0082;
+    --light:#f8f9fa;
+    --dark:#212529;
+    --link:#0d6efd;
+    --primary-hover:#106fbd;
+    --secondary-hover:#697683;
+    --success-hover:#017201;
+    --danger-hover:#b32922;
+    --warning-hover:#f3ca27;
+    --info-hover:#37025e;
+    --light-hover:#c9c0c0;
+    --dark-hover:#000000;
+    --disable-primary-btn:#77afdd;
+    --disable-secondary-btn:#888a8b;
+    --bg-color:#333333;
+    --font-color:#818181;
+    --btn-icon-color:#ffffff;
+    --font-family-rubik:@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    --font-family-roboto:@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+}
+
+/* fontImport */
+
+/* body */
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--bg-color);
+    color:var(--light);
+}
+
+/* Badges Badge */
+.badge{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profile-container{
+    padding: 0.4rem;
+    /* border:1px solid red; */
+    position:relative;
+}
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+.dot-icon{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    position:absolute;
+    margin:0px;
+    right:1rem;
+    bottom: 1rem;;
+}
+.online-dot-color{
+    background-color: var(--success-hover);
+}
+.offline-dot-color{
+    background-color: var(--secondary)
+}
+.busy-dot-color{
+    background-color: var(--danger-hover);
+}
+.quantity{
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+    font-size: 1.3rem;
+}

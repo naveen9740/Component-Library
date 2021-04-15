@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input . MAGIC UI</title>
+    <meta name='description' content='The most popular HTML, CSS, and JS library in the world.'>
+    <meta name="keywords" content="HTML, CSS, JavaScript, MAGIC UI, MAGIC BOOTSTRAP">
+    <meta name="author" content="Naveen Kamath">
+    <link rel="icon" href='/images/Basic/favicon-16x16.png' type='image/gif' sizes='16x16'>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/Css Components/sideNav.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="/responsive/index.css">
+</head>
+
+<body>
+    <!-- Buttons -->
+    <header class='side-bar'>
+        <div class="heading">
+            <div class="brand-name">
+                <h1>MAGIC UI</h1>
+            </div>
+        </div>
+        <div class="installation">
+            <h2><a href="/index.html" >Installation</a></h2>
+        </div>
+        <div class="nav-items">
+            <a href="/Html components/alert.html">Alert</a>
+            <a href="/Html components/avatar.html">Avatars</a>
+            <a href="/Html components/badges.html">Badges</a>
+            <a href="/Html components/button.html">Buttons</a>
+            <a href="/Html components/cards.html">Cards</a>
+            <a class='active'href="/Html components/input.html">Input</a>
+            <a href="/Html components/modal.html">Modal</a>
+            <a href="/Html components/ratings.html">Ratings</a>
+            <a href="/Html components/text-util.html">Text-Utilities</a>
+            <a href="/Html components/toast.html">Toast</a>
+        </div>
+        <footer class="footer">
+            <div class="designed-by">
+                <a href="">Developed & Designed By <strong class='white'>Naveen Kamath</strong>
+                </a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/naveen9740" target="_blank"><img src="/images/Basic/GitHub-Mark-32px.png"
+                        alt=""></a>
+            </div>
+        </footer>
+    </header>
+    <div class="mobileMenu">
+        <div class="brandName">MAGIC UI</div>
+        <div class="contactUs"><a href=""></a></div>
+        <div class="hamburgerMenu" id='ham'><img src="/images/Basic/ham.png" alt=""></div>
+    </div>
+    <div class="menuItems" id='menuItems'>
+        <a href="/Html components/alert.html">Alert</a>
+        <a href="/Html components/avatar.html">Avatars</a>
+        <a href="/Html components/badges.html">Badges</a>
+        <a href="/Html components/button.html">Buttons</a>
+        <a href="/Html components/cards.html">Cards</a>
+        <a href="/Html components/input.html">Input</a>
+        <a href="/Html components/modal.html">Modal</a>
+        <a href="/Html components/ratings.html">Ratings</a>
+        <a href="/Html components/text-util.html">Text-Utilities</a>
+        <a href="/Html components/toast.html">Toast</a>
+        <div id='cl' class="close">&#x2716;</div>
+    </div>
+    </header>
+    <div class='content-box'>
+        <div class="intro">
+            <h1 class="intro-heading">Input</h1>
+            <p class="intro-para">The Input component Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
+        </div>
+        <div class="intro btn-component-container">
+            <!-- Basic Input -->
+            <h2 class="sub-heading">Basic Input</h2>
+            <div class="intro">
+                <div class="input-container">
+                    <input type="text" name="" class='form-control' placeholder="Enter Username">
+                    <input type="password" name="" class='form-control' placeholder="Password">
+                </div>
+            </div>
+            <div class="iframe-section intro">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522%2522%2520class%253D%27form-control%27%2520placeholder%253D%2522Enter%2520Username%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520class%253D%27form-control%27%2520placeholder%253D%2522Password%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 654px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!--Email-->
+            <h2 class="sub-heading">Email</h2>
+            <div class="intro btn-container contained-btn-container">
+                <div class="input-container">
+                    <input type="email" id='email' name="email" class='form-control' placeholder="Enter Email">
+                    <input type="password" name='password' class='form-control' placeholder="Password">
+                    <button class='btn simple-btn'>Button</button>
+                </div>
+            </div>
+            <div class="iframe-section intro">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%27email%27%2520name%253D%2522email%2522%2520class%253D%27form-control%27%2520placeholder%253D%2522Enter%2520Email%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%27password%27%2520class%253D%27form-control%27%2520placeholder%253D%2522Password%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%27btn%2520simple-btn%27%253EButton%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 754px; height: 166px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Search -->
+            <h2 class="sub-heading">Search and Checkbox</h2>
+            <div class="intro btn-container ">
+                <div class="input-container">
+                    <input type="search" name="" class='form-control' placeholder="Search">
+                    <div class="checkbox">
+                        <input type="checkbox" id='html' class='tick-box'>
+                        <label for="html">Check Box</label>
+                    </div>
+                </div>
+            </div>
+            <div class="iframe-section intro">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=12.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522search%2522%2520name%253D%2522%2522%2520class%253D%27form-control%27%2520placeholder%253D%2522Search%2522%253E%250A%250A%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%27html%27%2520class%253D%27tick-box%27%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522html%2522%253ECheck%2520Box%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                    style="width: 584px; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div>Many Types Of Input Yet To Be Updated...</div>
+        </div>
+</body>
+<script src="/Js components/ham.js"></script>
+
+</html>
